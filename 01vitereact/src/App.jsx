@@ -1,5 +1,11 @@
+import Chai from "./chai";
 function App() {
-  return <h1>Chai aur react with Vite| Manpreet Kaur</h1>;
+  return (
+    <>
+      <Chai />
+      <h3>Chai with snacks</h3>
+    </>
+  );
 }
 
 export default App;
